@@ -1,28 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@zchantalo 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-artpersona
-/
-Perez_DB2_PRELIM-
-1
-00
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
-Perez_DB2_PRELIM-/Perez_DB2_PRELIM_HR/Perez_DB2_PRELIM_HR.sql
-@artpersona artpersona Add files via upload
-3d27b80 on Jan 16
-2404 lines (2193 sloc)  32.2 KB
-  
-CREATE SCHEMA talo_midtermexam;
 CREATE TABLE talo_midtermexam.regions (
 	region_id INT NOT NULL,
 	region_name VARCHAR(25),
